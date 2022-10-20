@@ -1,5 +1,5 @@
 .container {
-  padding-bottom: 20px;
+  padding-bottom: 1rem;
   display: flex;
   /* background-color: rgb(32, 52, 71); */
   /* color: var(--text-color);
@@ -7,7 +7,14 @@
   box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45); */
 }
 
-.container img {
+.img__container {
+  width: 300px;
+  height: 200px;
+  min-width: 300px;
+  /* border-radius: 5px 5px 0 0; */
+}
+
+.img__container img {
   width: 300px;
   height: 200px;
   /* border-radius: 5px 5px 0 0; */
@@ -43,4 +50,16 @@
   background-color: #07799d;
   font-weight: 700;
   margin-bottom: 0.25rem;
+}
+
+.techRow {
+  padding-bottom: 1rem;
+}
+
+.techTag {
+  background-color: #998e4d;
+  font-size: 0.9rem;
+  border-radius: 8px;
+  padding: 2px 5px;
+  margin: 5px;
 }
