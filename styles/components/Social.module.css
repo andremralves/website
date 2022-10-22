@@ -6,7 +6,7 @@
   font-size: 1.25rem;
   font-weight: 700;
   color: aquamarine;
-  padding-bottom: 0.5rem;
+  padding-bottom: 1rem;
   margin-left: 0.25rem;
 }
 
@@ -17,10 +17,11 @@
   display: flex;
   align-items: center;
   margin-left: 0.25rem;
+  padding-bottom: 0.5rem;
 }
 
 .list__item span {
-  padding: 0.5rem;
+  padding-left: 0.5rem;
   font-size: 1.125rem;
 }
 

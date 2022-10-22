@@ -10,6 +10,13 @@ const ProjectsList = (props: Props) => {
       <h1 className={styles.title}>PROJECTS</h1>
       <section id={styles.list}>
         <ProjectCard
+          img="https://user-images.githubusercontent.com/71379045/197049792-63b979fa-6370-41e8-b372-bd8b9b6ed848.png"
+          title="This Website"
+          tech={['NextJs', 'Typescript']}
+          description="My personal website built with Typescript, NexJs and deployed on Vercel."
+          btnLink="https://github.com/andremralves/website"
+        />
+        <ProjectCard
           img="https://user-images.githubusercontent.com/71379045/168422458-98dbd26d-f6be-4db5-b9ae-fb1d3279592c.png"
           title="Django CRM"
           tech={['Python', 'Django', 'Html', 'Css', 'Bootstrap']}

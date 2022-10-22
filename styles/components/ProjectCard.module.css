@@ -1,10 +1,13 @@
 .container {
-  padding-bottom: 1rem;
+  /* padding-bottom: 1rem; */
+  padding: 10px 0;
+  padding-left: 10px;
+  margin-bottom: 1rem;
   display: flex;
-  /* background-color: rgb(32, 52, 71); */
-  /* color: var(--text-color);
-  border-radius: 5px;
-  box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45); */
+  background-color: rgb(32, 52, 71);
+  /* color: var(--text-color); */
+  border-radius: 10px;
+  /* box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45); */
 }
 
 .img__container {
@@ -17,7 +20,8 @@
 .img__container img {
   width: 300px;
   height: 200px;
-  /* border-radius: 5px 5px 0 0; */
+  /* border: 2px solid gray; */
+  /* border-radius: 5px; */
 }
 
 .container button {
