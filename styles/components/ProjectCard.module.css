@@ -1,7 +1,6 @@
 .container {
   /* padding-bottom: 1rem; */
-  padding: 10px 0;
-  padding-left: 10px;
+  padding: 10px;
   margin-bottom: 1rem;
   display: flex;
   background-color: rgb(32, 52, 71);
@@ -42,12 +41,13 @@
 .container__right h1 {
   font-size: 1.5rem;
   font-weight: 700;
-  padding-bottom: 1rem;
+  padding-bottom: 0.5rem;
 }
 
 .container__right p {
   --tw-text-opacity: 1;
   color: rgba(156, 163, 175, var(--tw-text-opacity));
+  padding-bottom: 0.5rem;
 }
 
 .container__right button {
@@ -57,7 +57,9 @@
 }
 
 .techRow {
-  padding-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .techTag {
@@ -65,5 +67,23 @@
   font-size: 0.9rem;
   border-radius: 8px;
   padding: 2px 5px;
-  margin: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-wrap: wrap;
+  }
+  .img__container {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    margin-bottom: 0.5rem;
+  }
+  .img__container img {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+  }
 }

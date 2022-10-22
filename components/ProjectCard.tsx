@@ -20,14 +20,16 @@ const ProjectCard = (props: Props) => {
           <h1>{props.title}</h1>
           <div className={styles.techRow}>
             {props.tech.map((item, key) => (
-              <span key={key} className={styles.techTag}>{item}</span>
+              <span key={key} className={styles.techTag}>
+                {item}
+              </span>
             ))}
           </div>
           <p>{props.description}</p>
         </div>
         <div>
           <button>
-            <a href={props.btnLink} target="_blank" rel='noreferrer'>
+            <a href={props.btnLink} target="_blank" rel="noreferrer">
               Learn More
             </a>
           </button>

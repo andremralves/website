@@ -12,12 +12,23 @@
   max-width: 1260px;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
-@media only screen and (min-width: 768px) {
-  .container {
-    padding-left: 1rem;
-    padding-right: 1rem;
+.nav {
+  display: none;
+}
+
+@media only screen and (min-width: 700px) {
+  .nav__container {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .nav {
+    display: flex;
+    align-items: center;
+    color: white;
   }
 }
 
@@ -38,12 +49,6 @@
 .logo__blue {
   font-size: 1.5rem;
   color: #087ea4;
-}
-
-.nav {
-  display: flex;
-  align-items: center;
-  color: white;
 }
 
 .nav__link {
