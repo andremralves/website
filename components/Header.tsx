@@ -9,25 +9,27 @@ const Header = (props: Props) => {
     <header className={styles.container}>
       <div className={styles.nav__container}>
         <Link href="/">
-          <span className={styles.logo__blue}>[ </span>
-          <span className={styles.logo}>andre</span>
-          <span className={styles.logo__red}>@</span>
-          <span className={styles.logo}>alves</span>
-          <span className={styles.logo__blue}> ]</span>
+          <a>
+            <span className={styles.logo__blue}>[ </span>
+            <span className={styles.logo}>andre</span>
+            <span className={styles.logo__red}>@</span>
+            <span className={styles.logo}>alves</span>
+            <span className={styles.logo__blue}> ]</span>
+          </a>
         </Link>
 
         <nav className={styles.nav}>
           <div className={styles.nav__link}>
-            <Link href="">About</Link>
+            <Link href="/">About</Link>
           </div>
           <div className={styles.nav__link}>
-            <Link href="">Portfolio</Link>
+            <Link href="/">Portfolio</Link>
           </div>
           <div className={styles.nav__link}>
-            <Link href="">Blog</Link>
+            <Link href="/">Blog</Link>
           </div>
           <div className={styles.nav__link}>
-            <Link href="">Contact</Link>
+            <Link href="/">Contact</Link>
           </div>
         </nav>
       </div>
