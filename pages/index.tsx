@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 import Social from '../components/Social'
 import ProjectsList from '../components/ProjectsList'
 
-const initialPage = () => {
+const Home = () => {
   return (
     <>
       <Layout>
@@ -21,4 +21,4 @@ const initialPage = () => {
   )
 }
 
-export default initialPage
+export default Home

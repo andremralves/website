@@ -36,7 +36,7 @@ const Social = (props: Props) => {
             className={styles.list__item}
             target="_blank"
             rel="nofollow noopener noreferrer"
-            href={'https://www.linkedin.com/in/andr%C3%A9-alves-9b091220a/'}
+            href={'mailto:andremralves@gmail.com'}
           >
             <img
               className={styles.list__icon}

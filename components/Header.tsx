@@ -37,16 +37,17 @@ const Header = (props: Props) => {
 
         <nav className={styles.nav}>
           <div className={styles.nav__link}>
-            <Link href="/">About</Link>
+            <Link href="/blog">Blog</Link>
           </div>
           <div className={styles.nav__link}>
-            <Link href="/">Portfolio</Link>
-          </div>
-          <div className={styles.nav__link}>
-            <Link href="/">Blog</Link>
-          </div>
-          <div className={styles.nav__link}>
-            <Link href="/">Contact</Link>
+            <Link
+              href="/files/resume_pt-br.pdf"
+              target="_blank"
+              rel="noreferrer"
+              download
+            >
+              Resume
+            </Link>
           </div>
         </nav>
       </div>
