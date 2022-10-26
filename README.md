@@ -4,9 +4,9 @@
 
 ## Tech Stack
 
-| Stack                                                                                            | -                                                                                                  | -                                                                                                |
-| ------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
-| <p align="center"><img src="./assets/nextjs_logo.png" width="100" height="100"> <br />NextJs</p> | <p align="center"><img src="./assets/reactjs_logo.png" width="100" height="100"> <br />Reactjs</p> | <p align="center"><img src="./assets/ts_logo.png" width="100" height="100"> <br />Typescript</p> |
+| Nextjs                                                                          | Ractjs                                                                           | Typescript                                                                  |
+| ------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| <p align="center"><img src="./assets/nextjs_logo.png" width="100" height="100"> | <p align="center"><img src="./assets/reactjs_logo.png" width="100" height="100"> | <p align="center"><img src="./assets/ts_logo.png" width="100" height="100"> |
 
 ## :scroll: Todo
 
