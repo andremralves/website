@@ -12,6 +12,7 @@
 
 - [x] Setup site layout
 - [x] Setup markdown blog (markdown parser, gray-matter)
+- [x] Add mobile menu
 - [ ] Add post search feature
 - [ ] Add post pagination feature
 - [ ] Add post tags
