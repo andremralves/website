@@ -3,6 +3,7 @@ import Layout from '../components/Layout'
 import styles from '../styles/Home.module.css'
 import Social from '../components/Social'
 import ProjectsList from '../components/ProjectsList'
+import About from '../components/About'
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <Layout>
         <div className={styles.container}>
           <div className={styles.main}>
+            <About />
             <ProjectsList />
           </div>
           <div className={styles.sidebar}>

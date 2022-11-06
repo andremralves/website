@@ -18,6 +18,7 @@
 
 .nav .nav__link {
   display: none;
+  font-size: 1.25rem;
 }
 
 .nav {
@@ -58,7 +59,7 @@
 
 .dropdownMenu div {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   padding-bottom: 1rem;
 }
 

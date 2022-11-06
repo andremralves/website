@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+}
+
+.title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: aquamarine;
+    padding-bottom: 1rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #203447;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card img {
+    max-width: 110px;
+    height: 100%;
+    padding: 0.25rem;
+    margin: 0 0.5rem;
+    border-radius: 100%;
+}
+
+.card p {
+    font-size: 1.15rem;
+    padding-left: 1rem;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .card {
+        flex-direction: row;
+    }
+
+    .card p {
+    text-align: left;
+    }
+}
