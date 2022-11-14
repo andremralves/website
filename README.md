@@ -19,3 +19,4 @@
 - [ ] Add post pagination feature
 - [ ] Add post tags
 - [ ] Add project search feature
+- [ ] Migrate style to tailwind
