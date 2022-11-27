@@ -1,17 +1,6 @@
 .container {
-  width: 16rem;
+  position: fixed;
   /* max-width: fit-content; */
-}
-
-.title {
-  font-size: 1.25rem;
-  font-weight: 700;
-  color: aquamarine;
-  padding-bottom: 1rem;
-  margin-left: 0.25rem;
-}
-
-.list {
 }
 
 .list__item {

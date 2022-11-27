@@ -4,13 +4,6 @@
     padding-bottom: 1rem;
 }
 
-.title {
-    font-size: 1.25rem;
-    font-weight: 700;
-    color: aquamarine;
-    padding-bottom: 1rem;
-}
-
 .card {
     display: flex;
     flex-direction: column;

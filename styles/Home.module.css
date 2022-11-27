@@ -29,8 +29,10 @@
 
 @media (min-width: 1024px) {
   .sidebar {
+    /* position: fixed; */
     display: flex;
     padding-left: 3rem;
+    width: 16rem;
   }
 }
 
