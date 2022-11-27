@@ -1,13 +1,14 @@
 import React from 'react'
 import styles from '../styles/components/ProjectsList.module.css'
 import ProjectCard from './ProjectCard'
+import SectionTitle from './SectionTitle'
 
 type Props = {}
 
 const ProjectsList = (props: Props) => {
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>PROJECTS</h1>
+      <SectionTitle title="projects" />
       <section id={styles.list}>
         <ProjectCard
           img="/images/site_project.jpg"

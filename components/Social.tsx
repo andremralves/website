@@ -1,13 +1,14 @@
 import React from 'react'
 import styles from '../styles/components/Social.module.css'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import SectionTitle from './SectionTitle'
 
 type Props = {}
 
 const Social = (props: Props) => {
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>SOCIAL</h1>
+      <SectionTitle title="social" />
       <ul className={styles.list}>
         <li>
           <a
