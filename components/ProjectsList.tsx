@@ -29,7 +29,7 @@ const ProjectsList = (props: Props) => {
           title="Todo List"
           tech={['Typescript', 'React', 'Tailwind']}
           description="A Todo List app built with Typescript, TailwindCss, React and using Local Storage to store your tasks."
-          btnLink="https://github.com/andremralves/cpp_sorting_visualizer"
+          btnLink="https://github.com/andremralves/react-tailwind-todolist"
         />
         <ProjectCard
           img="https://user-images.githubusercontent.com/71379045/191885681-302e5da2-cf88-48b6-867c-8861122df90f.gif"
