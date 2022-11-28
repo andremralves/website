@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 import Social from '../components/Social'
 import ProjectsList from '../components/ProjectsList'
 import About from '../components/About'
+import Skills from '../components/Skills'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
           <div className={styles.main}>
             <About />
             <ProjectsList />
+            <Skills />
           </div>
           <div className={styles.sidebar}>
             <Social />
