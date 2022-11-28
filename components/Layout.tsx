@@ -14,6 +14,10 @@ const Layout = ({ title, children }: Props) => {
     <>
       <Head>
         <title>{title}</title>
+        <style>
+          @import
+          url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+        </style>
       </Head>
       <Header />
       <main className={styles.container}>{children}</main>
