@@ -25,6 +25,13 @@ const ProjectsList = (props: Props) => {
           btnLink="https://github.com/andremralves/django-CRM"
         />
         <ProjectCard
+          img="https://user-images.githubusercontent.com/71379045/201732178-12102e46-331b-43f8-ac40-ac9e7233921a.png"
+          title="Todo List"
+          tech={['Typescript', 'React', 'Tailwind']}
+          description="A Todo List app built with Typescript, TailwindCss, React and using Local Storage to store your tasks."
+          btnLink="https://github.com/andremralves/cpp_sorting_visualizer"
+        />
+        <ProjectCard
           img="https://user-images.githubusercontent.com/71379045/191885681-302e5da2-cf88-48b6-867c-8861122df90f.gif"
           title="Sorting Visualizer"
           tech={['C++', 'SFML']}
