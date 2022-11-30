@@ -6,7 +6,8 @@ type Props = {
   title: string
   tech: Array<string>
   description: string
-  btnLink: string
+  srcLink?: string
+  liveLink?: string
 }
 
 const ProjectCard = (props: Props) => {
@@ -27,12 +28,25 @@ const ProjectCard = (props: Props) => {
           </div>
           <p>{props.description}</p>
         </div>
-        <div>
-          <button>
-            <a href={props.btnLink} target="_blank" rel="noreferrer">
-              Learn More
-            </a>
-          </button>
+        <div className="flex">
+          {props.liveLink && (
+            <div className="mr-2">
+              <button className="bg-green-700 hover:bg-green-900 text-white font-bold py-2 px-4 rounded">
+                <a href={props.liveLink} target="_blank" rel="noreferrer">
+                  Live Project
+                </a>
+              </button>
+            </div>
+          )}
+          {props.srcLink && (
+            <div>
+              <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                <a href={props.srcLink} target="_blank" rel="noreferrer">
+                  Source Code
+                </a>
+              </button>
+            </div>
+          )}
         </div>
       </div>
     </div>

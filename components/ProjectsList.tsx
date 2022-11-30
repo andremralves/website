@@ -15,28 +15,29 @@ const ProjectsList = (props: Props) => {
           title="This Website"
           tech={['NextJs', 'Typescript']}
           description="My personal website built with Typescript, NexJs and deployed on Vercel."
-          btnLink="https://github.com/andremralves/website"
+          srcLink="https://github.com/andremralves/website"
         />
         <ProjectCard
           img="https://user-images.githubusercontent.com/71379045/168422458-98dbd26d-f6be-4db5-b9ae-fb1d3279592c.png"
           title="Django CRM"
           tech={['Python', 'Django', 'Html', 'Css', 'Bootstrap']}
           description="A CRM system to manage patients and appointments."
-          btnLink="https://github.com/andremralves/django-CRM"
+          srcLink="https://github.com/andremralves/django-CRM"
         />
         <ProjectCard
           img="https://user-images.githubusercontent.com/71379045/201732178-12102e46-331b-43f8-ac40-ac9e7233921a.png"
           title="Todo List"
           tech={['Typescript', 'React', 'Tailwind']}
           description="A Todo List app built with Typescript, TailwindCss, React and using Local Storage to store your tasks."
-          btnLink="https://github.com/andremralves/react-tailwind-todolist"
+          srcLink="https://github.com/andremralves/react-tailwind-todolist"
+          liveLink="https://serene-salmiakki-a825e6.netlify.app/"
         />
         <ProjectCard
           img="https://user-images.githubusercontent.com/71379045/191885681-302e5da2-cf88-48b6-867c-8861122df90f.gif"
           title="Sorting Visualizer"
           tech={['C++', 'SFML']}
           description="A desktop application that enables you to visualize how sorting algorithms work. It was built using the SFML framework"
-          btnLink="https://github.com/andremralves/cpp_sorting_visualizer"
+          srcLink="https://github.com/andremralves/cpp_sorting_visualizer"
         />
       </section>
     </div>

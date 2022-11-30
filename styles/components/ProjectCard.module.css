@@ -23,13 +23,6 @@
   /* border-radius: 5px; */
 }
 
-.container button {
-  border-style: none;
-  background-color: #161925;
-  color: var(--text-color);
-  padding: 5px 10px 5px 10px;
-  border-radius: 0.5rem;
-}
 
 .container__right {
   margin-left: 1.25rem;
@@ -48,12 +41,6 @@
   --tw-text-opacity: 1;
   color: rgba(156, 163, 175, var(--tw-text-opacity));
   padding-bottom: 0.5rem;
-}
-
-.container__right button {
-  background-color: #07799d;
-  font-weight: 700;
-  margin-bottom: 0.25rem;
 }
 
 .techRow {
