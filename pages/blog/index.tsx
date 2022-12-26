@@ -26,10 +26,10 @@ type MapType = {
   [id: string]: string
 }
 const tagColor: MapType = {
-  nextjs: 'blue',
-  'c++': 'red',
-  first: 'red',
-  'data structures': 'green',
+  nextjs: 'bg-blue-300',
+  'c++': 'bg-red-300',
+  first: 'bg-purple-300',
+  'data structures': 'bg-orange-300',
 }
 
 export default function Blog({ posts }: any) {
@@ -45,7 +45,7 @@ export default function Blog({ posts }: any) {
                   {frontmatter.tags.map((tag: string) => (
                     <span
                       key={tag}
-                      className={`px-2 mr-2 bg-${tagColor[tag]}-300 rounded text-black`}
+                      className={`px-2 mr-2 ${tagColor[tag]} rounded text-black`}
                     >
                       {tag}
                     </span>
