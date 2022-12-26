@@ -7,7 +7,7 @@ cover: '/images/docker-cover.png'
 socialImage: ''
 date: '2022-10-25'
 tags:
-  - nextjs
+  - NextJs
 ---
 
 ## First Blog Post
