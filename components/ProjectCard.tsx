@@ -1,5 +1,7 @@
 import React from 'react'
 import styles from '../styles/components/ProjectCard.module.css'
+import LiveProjectBtn from './LiveProjectBtn'
+import SrcCodeBtn from './SrcCodeBtn'
 import Tag from './Tag'
 
 type Props = {
@@ -30,20 +32,12 @@ const ProjectCard = (props: Props) => {
         <div className="flex">
           {props.liveLink && (
             <div className="mr-2">
-              <button className="bg-green-700 hover:bg-green-900 text-white font-bold py-2 px-4 rounded">
-                <a href={props.liveLink} target="_blank" rel="noreferrer">
-                  Live Project
-                </a>
-              </button>
+              <LiveProjectBtn link={props.liveLink} />
             </div>
           )}
           {props.srcLink && (
             <div>
-              <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                <a href={props.srcLink} target="_blank" rel="noreferrer">
-                  Source Code
-                </a>
-              </button>
+              <SrcCodeBtn link={props.srcLink} />
             </div>
           )}
         </div>
