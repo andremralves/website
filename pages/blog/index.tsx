@@ -1,8 +1,8 @@
 import fs from 'fs'
 import matter from 'gray-matter'
-import Image from 'next/image'
 import Link from 'next/link'
 import Layout from '../../components/Layout'
+import Tag from '../../components/Tag'
 
 export async function getStaticProps() {
   const files = fs.readdirSync('posts')
@@ -22,16 +22,6 @@ export async function getStaticProps() {
   }
 }
 
-type MapType = {
-  [id: string]: string
-}
-const tagColor: MapType = {
-  nextjs: 'bg-blue-300',
-  'c++': 'bg-red-300',
-  first: 'bg-purple-300',
-  'data structures': 'bg-orange-300',
-}
-
 export default function Blog({ posts }: any) {
   return (
     <Layout>
@@ -43,12 +33,7 @@ export default function Blog({ posts }: any) {
               <a>
                 <div className="flex mb-2">
                   {frontmatter.tags.map((tag: string) => (
-                    <span
-                      key={tag}
-                      className={`px-2 mr-2 ${tagColor[tag]} rounded text-black`}
-                    >
-                      {tag}
-                    </span>
+                    <Tag key={tag} name={tag} />
                   ))}
                 </div>
                 <h1 className="text-sky-300 text-xl ">{frontmatter.title}</h1>

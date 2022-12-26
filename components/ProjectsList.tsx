@@ -27,7 +27,7 @@ const ProjectsList = (props: Props) => {
         <ProjectCard
           img="https://user-images.githubusercontent.com/71379045/201732178-12102e46-331b-43f8-ac40-ac9e7233921a.png"
           title="Todo List"
-          tech={['Typescript', 'React', 'Tailwind']}
+          tech={['Typescript', 'React', 'Tailwindcss']}
           description="A Todo List app built with Typescript, TailwindCss, React and using Local Storage to store your tasks."
           srcLink="https://github.com/andremralves/react-tailwind-todolist"
           liveLink="https://serene-salmiakki-a825e6.netlify.app/"
