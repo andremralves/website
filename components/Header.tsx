@@ -54,6 +54,9 @@ const Header = (props: Props) => {
         </Link>
 
         <nav className={styles.nav}>
+          <div className="text-sky-400 text-xl hidden md:block hover:text-orange-500">
+            <Link href="/">Home</Link>
+          </div>
           <div className={styles.nav__link}>
             <Link href="/blog">Blog</Link>
           </div>
