@@ -19,7 +19,7 @@ const tagColor: MapType = {
   Tailwindcss: 'bg-green-300',
   SFML: 'bg-amber-500',
   'C++': 'bg-red-500',
-  'data structures': 'bg-orange-300',
+  'Data Structures': 'bg-orange-300',
 }
 
 const Tag = (props: TagProps) => {
