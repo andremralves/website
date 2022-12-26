@@ -44,6 +44,7 @@ export default function Blog({ posts }: any) {
                 <div className="flex mb-2">
                   {frontmatter.tags.map((tag: string) => (
                     <span
+                      key={tag}
                       className={`px-2 mr-2 bg-${tagColor[tag]}-300 rounded text-black`}
                     >
                       {tag}
