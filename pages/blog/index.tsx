@@ -22,17 +22,39 @@ export async function getStaticProps() {
   }
 }
 
+type MapType = {
+  [id: string]: string
+}
+const tagColor: MapType = {
+  nextjs: 'blue',
+  'c++': 'red',
+  first: 'red',
+  'data structures': 'green',
+}
+
 export default function Blog({ posts }: any) {
   return (
     <Layout>
-      <div>
+      <div className="mx-10">
+        <h1 className="text-sky-100 text-2xl mb-5">Blog Posts</h1>
         {posts.map(({ slug, frontmatter }: any) => (
-          <div key={slug}>
+          <div key={slug} className="mb-5">
             <Link href={`/blog/${slug}`}>
               <a>
-                <h1>{frontmatter.title}</h1>
+                <div className="flex mb-2">
+                  {frontmatter.tags.map((tag: string) => (
+                    <span
+                      className={`px-2 mr-2 bg-${tagColor[tag]}-300 rounded text-black`}
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+                <h1 className="text-sky-300 text-xl ">{frontmatter.title}</h1>
+                <p className="text-sky-100 mb-2 ">{frontmatter.metaDesc}</p>
               </a>
             </Link>
+            <hr />
           </div>
         ))}
       </div>
