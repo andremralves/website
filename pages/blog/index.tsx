@@ -25,7 +25,7 @@ export async function getStaticProps() {
 export default function Blog({ posts }: any) {
   return (
     <Layout>
-      <div className="mx-10">
+      <div className="max-w-prose mx-auto">
         <h1 className="text-sky-100 text-2xl mb-5">Blog Posts</h1>
         {posts.map(({ slug, frontmatter }: any) => (
           <div key={slug} className="mb-5">
