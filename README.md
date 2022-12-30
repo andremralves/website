@@ -17,6 +17,6 @@
 - [ ] Build skills section
 - [ ] Add post search feature
 - [ ] Add post pagination feature
-- [ ] Add post tags
+- [x] Add post tags
 - [ ] Add project search feature
 - [ ] Migrate style to tailwind
