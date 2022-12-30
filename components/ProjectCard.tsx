@@ -22,7 +22,7 @@ const ProjectCard = (props: Props) => {
       <div className={styles.container__right}>
         <div>
           <h1>{props.title}</h1>
-          <div className={styles.techRow}>
+          <div className="flex flex-wrap gap-2 mb-2">
             {props.tech.map((tag) => (
               <Tag key={tag} name={tag} />
             ))}

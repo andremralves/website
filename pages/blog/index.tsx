@@ -31,7 +31,7 @@ export default function Blog({ posts }: any) {
           <div key={slug} className="mb-5">
             <Link href={`/blog/${slug}`}>
               <a>
-                <div className="flex mb-2">
+                <div className="flex flex-wrap gap-2 mb-2">
                   {frontmatter.tags.map((tag: string) => (
                     <Tag key={tag} name={tag} />
                   ))}
