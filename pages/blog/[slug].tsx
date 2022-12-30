@@ -42,13 +42,13 @@ export async function getStaticProps(props: Props) {
 const PostPage = (props: Props) => {
   return (
     <Layout>
-      <div className={styles.container}>
-        <div>
-          <img src={props.frontmatter.cover} alt="" />
-          <h1 className={styles.title}>{props.frontmatter.title}</h1>
-          <div
+      <div className="mx-auto px-4 max-w-prose">
+        <div className="flex flex-col max-w-prose">
+          <img className="mb-5" src={props.frontmatter.cover} alt="" />
+          <article
+            className="prose prose-headings:text-slate-50"
             dangerouslySetInnerHTML={{ __html: md().render(props.content) }}
-          ></div>
+          ></article>
         </div>
       </div>
     </Layout>
