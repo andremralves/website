@@ -86,7 +86,7 @@ const Header = (props: Props) => {
           </a>
         </Link>
 
-        <nav className="flex align-middle pr-5">
+        <nav className="flex items-center pr-5">
           <div
             className={`text-xl ${
               router.pathname == '/' ? 'text-orange-500' : ''
